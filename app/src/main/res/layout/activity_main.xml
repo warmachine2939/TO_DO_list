@@ -11,18 +11,19 @@
 
     <ImageView
         android:id="@+id/image_splash"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:src="@drawable/to_do_icon"
+        android:layout_width="349dp"
+        android:layout_height="343dp"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp"/>
+        android:layout_marginTop="150dp"
+        android:src="@drawable/to_do_icon" />
 
     <TextView
         android:id="@+id/text_splash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Keep up with your work!!!"
         android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="Keep up with your work!"
         android:textColor="@color/white"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"

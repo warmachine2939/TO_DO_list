@@ -5,17 +5,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Update your task"
-        android:gravity="center"
         android:background="@drawable/background_design"
-        android:textColor="#fff"
+        android:fontFamily="casual"
+        android:gravity="center"
         android:padding="10dp"
+        android:text="Update your task"
+        android:textColor="#fff"
         android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,27 +28,37 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             tools:ignore="Suspicious0dp" >
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/abeezee"
                 android:text="Task"
-                android:textStyle="bold"
-                android:layout_margin="10dp"
-                android:textColor="#000"/>
+                android:textColor="#000"
+                android:textStyle="bold" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="4"
             tools:ignore="Suspicious0dp" >
+
             <EditText
                 android:id="@+id/mEditTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
                 android:hint="Task"
-                android:textStyle="bold"
                 android:textColor="#000"
-                android:layout_margin="10dp" />
+                android:textStyle="bold" />
         </RelativeLayout>
 
     </LinearLayout>
@@ -60,27 +72,37 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             tools:ignore="Suspicious0dp" >
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/abeezee"
                 android:text="Description"
-                android:textStyle="bold"
-                android:layout_margin="10dp"
-                android:textColor="#000"/>
+                android:textColor="#000"
+                android:textStyle="bold" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="4"
             tools:ignore="Suspicious0dp" >
+
             <EditText
                 android:id="@+id/mEditDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
                 android:hint="Description"
-                android:textStyle="bold"
                 android:textColor="#000"
-                android:layout_margin="10dp" />
+                android:textStyle="bold" />
         </RelativeLayout>
 
     </LinearLayout>
@@ -93,29 +115,39 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2">
+
             <Button
                 android:id="@+id/btnUpdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/annie_use_your_telescope"
                 android:text="Update"
                 android:textAllCaps="false"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="10dp"/>
+                android:textStyle="bold" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2">
+
             <Button
                 android:id="@+id/btnDel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/annie_use_your_telescope"
                 android:text="Delete"
                 android:textAllCaps="false"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="10dp"/>
+                android:textStyle="bold" />
         </RelativeLayout>
     </LinearLayout>
 
